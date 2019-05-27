@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>webpack boilerplate</title>
+</head>
+<body id="app-body">
+    <app-element class="header">Modal Window Effects</app-element>
+    <app-host>
+        <!-- All modals added here for the demo. You would of course just have one, dynamically created -->
+		<div class="modal" id="modal">
+			<div class="content">
+				<h3>Modal Dialog</h3>
+				<div>
+					<p>This is a modal window. You can do the following things with it:</p>
+					<ul>
+						<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+						<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+						<li><strong>Close:</strong> click on the button below to close the modal.</li>
+					</ul>
+					<button class="close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<!-- /container -->
+		<div class="container">
+			<header>
+                <h1>Some inspiration for different modal window appearances</h1>
+			</header>
+			<div class="main clearfix">
+				<div class="column">
+					<p>There are many possibilities for modal overlays to appear. Here are some modern ways of showing them using CSS transitions and animations.</p>
+				</div>
+				<div class="column" id="trigger">
+					<button data-effect="fade-in-scale">Fade in &amp; Scale</button>
+					<button data-effect="slide-in-right">Slide in (right)</button>
+					<button data-effect="slide-in-bottom">Slide in (bottom)</button>
+					<button data-effect="newspaper">Newspaper</button>
+					<button data-effect="fall">Fall</button>
+					<button data-effect="side-fall">Side Fall</button>
+					<button data-effect="stick-up">Sticky Up</button>
+					<button data-effect="3d-flip-h">3D Flip (horizontal)</button>
+					<button data-effect="3d-flip-v">3D Flip (vertical)</button>
+					<button data-effect="3d-sign">3D Sign</button>
+					<button data-effect="super-scaled">Super Scaled</button>
+					<button data-effect="just-me">Just Me</button>
+					<button data-effect="3d-slit">3D Slit</button>
+					<button data-effect="3d-rotate-bottom">3D Rotate Bottom</button>
+					<button data-effect="3d-rotate-in-left">3D Rotate In Left</button>
+					<button data-effect="blur">Blur</button>
+					<!-- special modal that will add a perspective class to the html element -->
+					<button class="setperspective" data-effect="let-me-in">Let me in</button>
+					<button class="setperspective" data-effect="make-way">Make way!</button>
+					<button class="setperspective" data-effect="slip-from-top">Slip from top</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- the overlay element -->
+		<div class="overlay"></div>
+    </app-host>
+    <app-element class="footer">Made with love by Vinnie</app-element>
+</body>
+</html>

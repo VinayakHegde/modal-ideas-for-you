@@ -1,0 +1,13 @@
+app-element{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+}
+app-element.header{
+    font-size: 1.25em;
+}
